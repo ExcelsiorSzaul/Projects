@@ -8,6 +8,7 @@ Registers hold four digit signed 'words' such as +0000, -9999, or +9999.
 Words are interpreted as instructions if signed with + and ignored if -
 Words are structured as follows:
 Example: +1210
+
 '+' (instruction), 12 (op code), 10 (register)
 
 There are several op codes:
